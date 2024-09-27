@@ -1,4 +1,4 @@
-package SingleResponsibility;
+package singleResponsibility;
 
 public class Main {
     public static void main(String args[]){
