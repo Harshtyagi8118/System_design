@@ -50,7 +50,6 @@ public class GameBoard {
         while(true){
             if(count==maxMovesallowed){
                 System.out.println("-------GAME DRAW-------");
-                return;
             }
             Player player = queue.poll();
             int[] pos = getUserInput(player);
