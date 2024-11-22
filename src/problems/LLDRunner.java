@@ -1,5 +1,6 @@
 package problems;
 
+import problems.ChessGame.ChessGameDemo;
 import problems.ParkingLot.ParkingLot;
 import problems.ParkingLot.Vehicle.ParkingLotDemo;
 import problems.TicTacToeGame.PlayGame;
@@ -9,6 +10,7 @@ public class LLDRunner {
 //        PlayGame playGame = new PlayGame();
 //        playGame.run();
 
-        ParkingLotDemo.run();
+//        ParkingLotDemo.run();
+        ChessGameDemo.run();
     }
 }
