@@ -2,7 +2,7 @@ package problems.TicTacToeGame;
 
 import java.util.ArrayList;
 
-public class PlayGame {
+public class  PlayGame {
     public void run(){
         Player[] players = new Player[2] ;
         Player player1 = new Player();

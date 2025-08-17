@@ -11,6 +11,9 @@ public class DecoratorPattern {
         pizza = new ChickenPizzaDecorator(pizza);
         System.out.println("Description : "+ pizza.getDescription());
         System.out.println("Amount : $"+pizza.getAmount());
+        pizza = new ChickenPizzaDecorator(pizza);
+        System.out.println("Description : "+ pizza.getDescription());
+        System.out.println("Amount : $"+pizza.getAmount());
 
 
     }
